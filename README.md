@@ -1,8 +1,8 @@
-# Sixi Robot Arm
+# Sixi 2 Robot Arm
 
-![Sixi robot arm at Bay Area Maker Fair 2018](2018BAMF.jpg)
+![Sixi 1 robot arm at Bay Area Maker Fair 2018](2018BAMF.jpg)
 
-Sixi is an open source industrial robot arm.  It is designed with six degrees of freedom and can hold 2kg at 50cm.
+Sixi 2 is an open source industrial robot arm.  It is designed with six degrees of freedom and can hold 2kg at 80cm.
 
 ## Motivation
 
@@ -12,10 +12,11 @@ When 3D printers were closed source, they started at $10k.  Makerbot and Prusa c
 
 ## Ease
 
-The Sixi has no epoxy because we like operations that can be undone.
-The Sixi has no timing belts because they are annoying to keep tensioned.
+The Sixi has no glue because we like operations that can be undone.
 
 All the 3D printable parts were produced on a Prusa MK2s at default settings (20% infill, 200um layer height).  Parts are carefully designed to have a minimum of support material cleaning.
+
+There is one part turned on a lathe.  Unavoidable.
 
 ## Links and Info
 
@@ -41,8 +42,8 @@ This repository contains:
 * The bill of materials (BOM)
 * A list of our commercial sources (In the BOM)
 * Assembly instructions and animations _in progress_
-* Usage instructions _soon_
 * Wiring schematic _in progress_
+* Usage instructions _soon_
 * Issue tickets specifically related to the hardware
 
 ## Collaborate
@@ -50,3 +51,5 @@ This repository contains:
 We love collaborating!  Let's make great things happen together.
 
 You can reach us online at http://marginallyclever.com/
+We have a dedicated forum: https://www.marginallyclever.com/forums/forum/sixi-robot-arm/
+and a discord server: https://discord.gg/FkSK3xz
