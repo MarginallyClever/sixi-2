@@ -51,5 +51,7 @@ This repository contains:
 We love collaborating!  Let's make great things happen together.
 
 You can reach us online at http://marginallyclever.com/
+
 We have a dedicated forum: https://www.marginallyclever.com/forums/forum/sixi-robot-arm/
+
 and a discord server: https://discord.gg/FkSK3xz
