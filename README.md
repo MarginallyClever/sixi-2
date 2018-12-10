@@ -1,6 +1,7 @@
 # Sixi 2 Robot Arm
 
 ![Sixi 1 robot arm at Bay Area Maker Fair 2018](2018BAMF.jpg)
+
 *pictured above: sixi 1 robot arm, 2018 Bay Area Maker Faire*
 
 Sixi 2 is an open source industrial robot arm.  It is designed with six degrees of freedom and can hold 2kg at 80cm.
