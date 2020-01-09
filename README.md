@@ -28,8 +28,9 @@ There is one part turned on a lathe.  Unavoidable.
 
 Sixi was designed in Fusion 360.  The design is publicly shared...
 
-...as the last stable version: https://a360.co/2s9NEJI
-...as the development version: http://a360.co/2pgpNaG
+...as the last stable version: https://a360.co/35zKVeh
+
+...as the development version: https://a360.co/2FwkZFQ
 
 Marginally Clever uses our home made Robot Overlord app to simulate, drive, and test the Sixi robot arm.
 
@@ -47,9 +48,9 @@ This repository contains:
 * Data sheet descriptions of the milled aluminum parts
 * The bill of materials (BOM)
 * A list of our commercial sources (In the BOM)
-* Assembly instructions and animations _in progress_
-* Wiring schematic _in progress_
-* Usage instructions _soon_
+* Assembly instructions and animations _will be on mcr.dozuki.com_
+* Wiring schematic _will be on mcr.dozuki.com_
+* Usage instructions _will be on mcr.dozuki.com_
 * Issue tickets specifically related to the hardware
 
 ## Collaborate
