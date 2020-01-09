@@ -2,6 +2,11 @@
 
 Sixi 2 is an open source industrial robot arm.  It is designed with six degrees of freedom and can hold 2kg at 80cm.
 
+Some examples of it in action:
+https://www.instagram.com/p/B56L99UnWkN/
+https://www.instagram.com/p/B6L7YMTnthS/
+https://www.instagram.com/p/B6jtXw5HbRo/
+
 ## Motivation
 
 3D printers can print parts for themselves, but they cannot self-assemble.  The long goal of the Sixi is to build a machine that can assemble copies of itself.
