@@ -1,77 +1,302 @@
-Part name,Quantity,Method,Source
-1B PicassoBox,1,3D printed,
-1b sensor mount,1,3D printed,
-1C BevelGear,4,3D printed,
-1C-Gear 7/32,1,3D printed,
-1C-gear 8/32,3,3D printed,
-1D EndEffector,1,3D printed,
-2A-center,1,3D printed,
-2B-gear side,1,3D printed,
-2c sensor mount,1,3D printed,
-2C-sensor side,1,3D printed,
-3a bearing retainer,1,3D printed,
-3a BearingHolder,1,3D printed,
-3A ForkCenterBottom,1,3D printed,
-3B ElbowMount,1,3D printed,
-3ba sensor mount,1,3D printed,
-3C ActuatorHead,2,3D printed,
-3s Sixi spacer,1,3D printed,
-aa cap bott,1,3D printed,
-Aa center wall,2,3D printed,
-ab cap top,1,3D printed,
-Ab center top,1,3D printed,
-ac cap large,1,3D printed,
-actuator head,1,3D printed,
-B gear side,1,3D printed,
-Ba assembly,1,3D printed,
-Ba elbow mount,2,3D printed,
-Ba Picasso,1,3D printed,
-Bb assembly,1,3D printed,
-Bb elbow mount,2,3D printed,
-Bb Picasso,2,3D printed,
-Bc Picasso,1,3D printed,
-C sensor side,1,3D printed,
-cap,2,3D printed,
-face plate,1,3D printed,
-gear gt2-6-50 7-32,1,3D printed,
-gear gt2-6-50 8-32,1,3D printed,
-MagHolder M,2,3D printed,
-MagnetHolder,1,3D printed,
-MagnetHolder,1,3D printed,
-shaft collar 1in-1.315in-40cm flanged,1,3D printed,
-shaft collar 7/32,9,3D printed,
-shaft collar 8/32,4,3D printed,
-shaft coupler 1.315in,1,3D printed,
-T tensioner,2,3D printed,
-wrist belt tensioner 2,2,3D printed,
-1A,1,Lathed,See 1A drawing.pdf
-bearing 32-20-7 61804,3,purchase,McMaster-Carr
-bolt 1/4inx2in 91465A110,1,purchase,McMaster-Carr
-m2x5 socket head cap screw 90128A177,2,purchase,McMaster-Carr
-nut 1/4in nylock 90640A129,1,purchase,McMaster-Carr
-nut m2 hex 90592A075,20,purchase,McMaster-Carr
-nut m3 92497A200,1,purchase,McMaster-Carr
-nut m3 nylock 90576A102,8,purchase,McMaster-Carr
-nut M3 square DIN 562,17,purchase,McMaster-Carr
-nut m4 nylock 94645A101,1,purchase,McMaster-Carr
-screw m2x10 socket head cap 91290A017,23,purchase,McMaster-Carr
-screw m2x14 socket head cap 91290A045,8,purchase,McMaster-Carr
-screw m2x5 socket head cap 90128A177,12,purchase,McMaster-Carr
-screw m3x15 socket head cap 91290A572,11,purchase,McMaster-Carr
-screw m3x20 socket head cap 91290A123,8,purchase,McMaster-Carr
-screw m3x30 socket head cap partially threaded 91290A130,4,purchase,McMaster-Carr
-screw m3x35 socket head cap partially threaded 91290A135,8,purchase,McMaster-Carr
-screw m3x45 socket head cap partially threaded 91290A079,11,purchase,McMaster-Carr
-screw m4x20 socket head cap 91292A121,1,purchase,McMaster-Carr
-standoff m3x12 94868A168,8,purchase,McMaster-Carr
-Washer 0.286-0.64-0.056 90850A100,13,purchase,McMaster-Carr
-magnet 6x3mm neodynium,3,purchase,madscientisthut.com
-rod 7-32in x 10mm,2,purchase,metalsupermarket.com
-rod 7/32in x 37mm,1,purchase,metalsupermarket.com
-rod 7/32in x 62mm,2,purchase,metalsupermarket.com
-rod 7/32in x 84.5mm,1,purchase,metalsupermarket.com
-sensor AS5045 magnetic encoder,3,purchase,madscientisthut.com
-tube 1/4in x 41mm x0.014in brass,1,purchase,magicboxhobbies.net
-tube 1/4inx18mm brass,2,purchase,magicboxhobbies.net
-tube 1inx1.315inx40cm pvc,1,purchase,home depot
-tube 8-32 x 6mm,2,purchase,magicboxhobbies.net
+Part ID	Part name	Qty	Image
+"Sixi2-001
+"	standoff M4 6x20 95947A056	16	https://imgur.com/KX3Rz3N
+Sixi2-002	standoff m3 4.5x12 95947A008	7	https://imgur.com/IH3mTjJ
+Sixi2-003	standoff #4-40x7mm M-F	2	
+ 	standoff #4-40x7mm M-F	2	
+Sixi2-005	setScrew M3x4mm flatEnd 92605A098	1	
+ 	setScrew M3x4mm flatEnd 92605A098	6	
+	setScrew M3x4mm flatEnd 92605A098	4	
+	setScrew M3x4mm flatEnd 92605A098	10	
+Sixi2-009	screw M5x20 socket head cap 90128A248	4	
+	screw M5x20 socket head cap 90128A248	4	
+	screw M5x20 socket head cap 90128A248	4	
+Sixi2-012	screw M4x45 socket head cap partially threaded 91292A133	28	
+	screw M4x45 socket head cap partially threaded 91292A133	8	
+Sixi2-014	screw M4x25 socket head 91292A122	30	https://imgur.com/v1CkgbG
+Sixi2-015	screw M4x14 socket head cap 91292A038	6	
+Sixi2-016	screw m3x8 socket head cap 91292A112	14	
+	screw m3x8 socket head cap 91292A112	6	
+	screw m3x8 socket head cap 91292A112	12	
+	screw m3x8 socket head cap 91292A112	8	
+	screw m3x8 socket head cap 91292A112	1	
+Sixi2-021	screw m3x5 socket head cap 91292A110	2	
+	screw m3x5 socket head cap 91292A110	16	
+	screw m3x5 socket head cap 91292A110	16	
+Sixi2-024	screw m3x45 socket head cap partially threaded 91290A079	12	https://imgur.com/NSbllIR
+	screw m3x45 socket head cap partially threaded 91290A079	16	
+	screw m3x45 socket head cap partially threaded 91290A079	23	
+	screw m3x45 socket head cap partially threaded 91290A079	4	
+	screw m3x45 socket head cap partially threaded 91290A079	4	
+Sixi2-029	screw m3x35 socket head cap partially threaded 91292A033	4	
+	screw m3x35 socket head cap partially threaded 91292A033	4	
+Sixi2-031	screw m3x30 socket head cap partially threaded 91292A022	2	
+	screw m3x30 socket head cap partially threaded 91292A022	2	
+Sixi2-033	screw m3x25 socket head cap paritally threaded 91292A020	12	https://imgur.com/angOEbH
+	screw m3x25 socket head cap paritally threaded 91292A020	12	
+	screw m3x25 socket head cap paritally threaded 91292A020	22	
+	screw m3x25 socket head cap paritally threaded 91292A020	3	
+Sixi2-037	screw m3x20 socket head cap 91290A123	4	https://imgur.com/wMKXFRN
+	screw m3x20 socket head cap 91290A123	24	
+Sixi2-039	screw m3x16 socket head cap 91292A115	6	
+	screw m3x16 socket head cap 91292A115	15	
+	screw m3x16 socket head cap 91292A115	5	
+	screw m3x16 socket head cap 91292A115	2	
+Sixi2-043	screw M3x10 socket head cap 91292A113	8	
+	screw M3x10 socket head cap 91292A113	2	
+	screw M3x10 socket head cap 91292A113	7	
+	screw M3x10 socket head cap 91292A113	36	
+Sixi2-047	screw m2x6 socket head cap 91292A831	4	
+	screw m2x6 socket head cap 91292A831	16	
+	screw m2x6 socket head cap 91292A831	10	
+	screw m2x6 socket head cap 91292A831	13	
+	screw m2x6 socket head cap 91292A831	6	
+	screw m2x6 socket head cap 91292A831	6	
+Sixi2-053	screw m2x12 socket head cap 91292A834	4	
+	screw m2x12 socket head cap 91292A834	2	
+	screw m2x12 socket head cap 91292A834	2	
+Sixi2-056	nut m5 nylock 90576A104	4	
+Sixi2-057	nut M5 hex 90592A095	4	
+	nut M5 hex 90592A095	4	
+Sixi2-059	nut m4 nylock 90576A103	8	
+	nut m4 nylock 90576A103	2	
+Sixi2-061	nut M4 hex 90592A090	26	
+	nut M4 hex 90592A090	8	
+Sixi2-063	nut M3 square DIN 562	7	
+	nut M3 square DIN 562	21	
+	nut M3 square DIN 562	4	
+	nut M3 square DIN 562	6	
+Sixi2-067	nut m3 nylock 90576A102	24	
+	nut m3 nylock 90576A102	28	
+	nut m3 nylock 90576A102	37	
+	nut m3 nylock 90576A102	8	
+	nut m3 nylock 90576A102	19	
+Sixi2-072	nut m3 hex 90592A085	18	
+	nut m3 hex 90592A085	18	
+	nut m3 hex 90592A085	18	
+	nut m3 hex 90592A085	7	
+	nut m3 hex 90592A085	27	
+	nut m3 hex 90592A085	2	
+Sixi2-078	nut m2 hex 90592A075	4	
+Sixi2-079	NEMA24 100mm	1	
+Sixi2-080	NEMA23 56mm	1	
+	NEMA23 56mm	1	
+Sixi2-082	NEMA17 48mm	2	
+Sixi2-083	NEMA17 39mm	1	
+Sixi2-084	case 380mm x 260mm x 105mm	1	https://imgur.com/rg18C09
+Sixi2-085	bearing flanged 3x8mm	8	
+Sixi2-086	bearing 65x85x10mm 6813 2RS	2	
+	bearing 65x85x10mm 6813 2RS	2	
+Sixi2-088	bearing 45x58x7 6809z	2	
+Sixi2-089	bearing 40x50x6mm 6708 2RS	4	
+Sixi2-090	bearing 30x37x4 6706	2	
+	bearing 30x37x4 6706	3	
+Sixi2-092	bearing 15x21x4 6702	3	
+	bearing 15x21x4 6702	3	
+	bearing 15x21x4 6702	3	
+Sixi2-095	bearing 12x18x4 6701RZ	1	
+	bearing 12x18x4 6701RZ	1	
+	bearing 12x18x4 6701RZ	1	
+	bearing 12x18x4 6701RZ	2	
+	bearing 12x18x4 6701RZ	4	
+	bearing 12x18x4 6701RZ	8	
+Sixi2-101	[MISC] - Timing Belt GT2-400mm	1	
+Sixi2-102	[MISC] - Timing Belt GT2-336mm	1	
+	[MISC] - Timing Belt GT2-336mm	1	
+Sixi2-104	[MISC] - Timing Belt GT2-160mm	3	
+Sixi2-105	[MISC] - Braided Cable Sleeve [950mm long]	1	
+Sixi2-106	[MECH] - GT2pulley 20t - 5mm	3	
+Sixi2-107	[LSR] - PSU plate	1	
+Sixi2-108	[LSR] - PicassoCoverPlate-Acrylic	2	
+Sixi2-109	[LSR] - MountingBoard 250mmx300mm	1	
+Sixi2-110	[LSR] - ForkSensSide-Acrylic	1	
+Sixi2-111	[LSR] - ForkGBSide-Acrylic	1	
+Sixi2-112	[ELEC] - sensor AS5147 {straight header pins on label side}	1	
+	[ELEC] - sensor AS5147 {right-angle header pins on label side}	1	
+	[ELEC] - sensor AS5147 {right-angle header pins on label side}	1	
+	[ELEC] - sensor AS5147 {right-angle header pins on chip side}	1	
+	[ELEC] - sensor AS5147 {right-angle header pins on chip side}	1	
+	[ELEC] - sensor AS5147 {right-angle header pins on chip side}	1	
+Sixi2-118	[ELEC] - Screw Terminal 4P-3.5mm	6	
+Sixi2-119	[ELEC] - Screw Terminal 8p	3	
+	[ELEC] - Screw Terminal 8p	3	
+Sixi2-121	[ELEC] - Screw Terminal 4p	1	
+Sixi2-122	[ELEC] - Screw Terminal 2P	1	
+Sixi2-123	[ELEC] - ROCKER SWITCH W/ IEC SOCKET & FUSE HOLDER (SCREW)	1	
+Sixi2-124	[ELEC] - power supply 24v 20a 480w	1	https://imgur.com/Z2UQoKd
+Sixi2-125	[ELEC] - PCB PanelAdpater	3	https://imgur.com/q5Lh6uE
+Sixi2-126	[ELEC] - PCB MegaShield 	1	https://imgur.com/dRTLl7Z
+Sixi2-127	[ELEC] - Panel Mount USB-B to Mini-B extension	1	
+Sixi2-128	[ELEC] - NPN 2222A transistor	9	
+Sixi2-129	[ELEC] - MP1584EN VoltageReg	2	
+Sixi2-130	[ELEC] - magnet 8x2.5mm neodynium	1	
+	[ELEC] - magnet 8x2.5mm neodynium	1	
+	[ELEC] - magnet 8x2.5mm neodynium	1	
+	[ELEC] - magnet 8x2.5mm neodynium	1	
+	[ELEC] - magnet 8x2.5mm neodynium	2	
+Sixi2-135	[ELEC] - D-SUB F-Conn IDC	1	
+Sixi2-136	[ELEC] - D-SUB F-Conn right-angle 	1	
+Sixi2-137	[ELEC] - D-SUB M/M 1m Cable	1	
+Sixi2-138	[ELEC] - DM556T	1	
+Sixi2-139	[ELEC] - DM542T	2	
+Sixi2-140	[ELEC] - DM320T	3	
+Sixi2-141	[ELEC] - Aviation Plug F/F-GX16 8p Cable	4	
+Sixi2-142	[ELEC] - Aviation Plug M-GX16 8p	4	
+	[ELEC] - Aviation Plug M-GX16 8p	4	
+Sixi2-144	[ELEC] - Arduino MEGA2650	1	
+Sixi2-145	[ELEC] - 4-Wire 22AWG Signal Cable - 165mm {M3}	1	
+	[ELEC] - 4-Wire 22AWG Signal Cable - 185mm {M4}	1	
+	[ELEC] - 4-Wire 22AWG Signal Cable - 200mm {M2}	1	
+	[ELEC] - 4-Wire 22AWG Signal Cable - 210mm {M0 & M1}	2	
+	[ELEC] - 4-Wire 22AWG Signal Cable - 225mm {M5}	1	
+Sixi2-150	[ELEC] - 2-Wire 22AWG Power Cable - 335mm {Small Drivers Power}	1	
+Sixi2-151	[ELEC] - 2-Wire 22AWG Power Cable - 420mm {Arduino Power}	1	
+Sixi2-152	[ELEC] - 2-Wire 18AWG Power Cable - 160mm {Big Drivers Power}	1	
+	[ELEC] - 2-Wire 18AWG Power Cable - 65mm {Rocker Switch Jumper}	1	
+Sixi2-154	[ELEC] - 3-Wire Power Cable - 365mm {Switch to PSU}	1	
+Sixi2-155	[ELEC] - Female 6-pin Brown to Blue Ribbon Cable - 890mm {a2-Elbow Sensor}	1	https://imgur.com/TS6cFpq
+Sixi2-156	[ELEC] - Female 6-pin Brown to Blue Ribbon Cable - 365mm {a1-Shoulder Sensor}	1	
+Sixi2-157	[ELEC] - F/F 6-pin Brown to Blue Ribbon Cable - 210mm {a5-Hand Sensor Extension}	1	
+Sixi2-158	[ELEC] - Female 6-pin Brown to Blue Ribbon Cable - 1520mm {a4-Wrist Sensor}	1	
+Sixi2-159	[ELEC] - Male 6-pin Brown to Blue Ribbon Cable - 1470mm {a5-Hand Sensor}	1	
+Sixi2-160	[ELEC] - Female 6-pin Brown to Blue Ribbon Cable - 145mm {a0-Anchor Sensor}	1	
+Sixi2-161	[ELEC] - Female 6-pin Brown to Blue Ribbon Cable - 1160mm {a3-Ulna Sensor}	1	
+Sixi2-162	[CNC] - tube 7/32in x 492mm	1	https://imgur.com/Z13f9Rq
+Sixi2-163	[CNC] - Tube 7/32in x 25.95mm (wristShaft) w/Jig	1	https://imgur.com/1g44VEV
+Sixi2-164	[CNC] - tube 5/16in x 452.6mm	1	https://imgur.com/VDGTeUY
+Sixi2-165	[CNC] - Tube 5/16in x 19.5mm (HandShaft) w/ Jig	1	https://imgur.com/DENvd4o
+Sixi2-166	[CNC] - Tube 3/8in x 76.5mm (sensorShaft) w/ Jigs	1	https://imgur.com/8zaq0Lm
+Sixi2-167	[CNC] - tube 3/8in x 396.35mm	1	https://imgur.com/YqrMDTm
+Sixi2-168	[CNC] - Tube 1/8in x 520mm (Ulna Sensor Shaft)	1	https://imgur.com/7tEXEqR
+Sixi2-169	[CNC] - Tube 1/8in x 35mm	1	https://imgur.com/Fj52HuV
+Sixi2-170	[CNC] - Pipe Aluminum 1.375in x 360.25mm	1	https://imgur.com/DYVS192
+Sixi2-171	[CNC] - Pipe Aluminum 1.375in x 260.25mm	1	https://imgur.com/Qf2uR6f
+Sixi2-172	[CNC] - outerPin - 3x24mm SteelRod	41	
+	[CNC] - outerPin - 3x24mm SteelRod	36	
+Sixi2-174	[CNC] - innerRoller - 3.5mm x 18.5mm x 0.225 BrassTube	12	https://imgur.com/ebuiq8H
+	[CNC] - innerRoller - 3.5mm x 18.5mm x 0.225 BrassTube	12	
+Sixi2-176	[3D] - xSAb-AS5147 SensorAdapter2.stl	1	
+	[3D] - xSAb-AS5147 SensorAdapter2.stl	1	
+	[3D] - xSAb-AS5147 SensorAdapter2.stl	1	
+Sixi2-179	[3D] - xSAa-AS5147 SensorAdapter1.stl	1	
+	[3D] - xSAa-AS5147 SensorAdapter1.stl	1	
+Sixi2-181	[3D] - 7E-plug wall adapter.stl	1	
+Sixi2-182	[3D] - 7Db-ArduinoTray.stl	1	
+Sixi2-183	[3D] - 7Da-ArduinoStandoff.stl	1	
+Sixi2-184	[3D] - 7C-stepperDriverAdapter 542.stl	1	
+Sixi2-185	[3D] - 7B-stepperDriverAdapter 556-542.stl	1	
+Sixi2-186	[3D] - 7A-stepperDriverAdapter 320x3.stl	1	
+Sixi2-187	[3D] - 6PI-pulleyInterior OUTPUT-64t v12.stl	1	
+Sixi2-188	[3D] - 6PE-pulleyExterior OUTPUT-63t v7.stl	1	
+Sixi2-189	[3D] - 6Md-SensorMagHolder.stl	1	
+Sixi2-190	[3D] - 6Mc-WristMagHolder v7.stl	1	
+Sixi2-191	[3D] - 6Ea-rotorTOP.stl	1	
+Sixi2-192	[3D] - 6Ea-rotorBOTT.stl	1	
+Sixi2-193	[3D] - 6Ea-HousingTOP.stl	1	
+Sixi2-194	[3D] - 6Ea-HousingBOTT.stl	1	
+Sixi2-195	[3D] - 6Ea-eShaftTOP.stl	1	
+Sixi2-196	[3D] - 6Ea-eShaftBOTT.stl	1	
+Sixi2-197	[3D] - 6Db-BevelGear OUTPUT-20t.stl	1	
+Sixi2-198	[3D] - 6Da-rotorTOP.stl	1	
+Sixi2-199	[3D] - 6Da-rotorBOTT.stl	1	
+Sixi2-200	[3D] - 6Da-outputDiskTOP.stl	1	
+Sixi2-201	[3D] - 6Da-outputDiskBOTT.stl	1	
+Sixi2-202	[3D] - 6Da-HousingTOP.stl	1	
+Sixi2-203	[3D] - 6Da-HousingBOTT.stl	1	
+Sixi2-204	[3D] - 6Da-Hand.stl	1	
+Sixi2-205	[3D] - 6Da-eShaftTOP.stl	1	
+Sixi2-206	[3D] - 6Da-eShaftBOTT.stl	1	
+Sixi2-207	[3D] - 6Bc-bearingSpacer v3.stl	1	
+Sixi2-208	[3D] - 6Ba-BevelGear INPUT-20t v13.stl	1	
+Sixi2-209	[3D] - 6Ae-SensHolder.stl	1	
+Sixi2-210	[3D] - 6Ad-wristGBDiskBott.stl	1	
+Sixi2-211	[3D] - 6Ac-wristGBDiskTop.stl	1	
+Sixi2-212	[3D] - 6Ab-PicassoTop.stl	1	
+Sixi2-213	[3D] - 6Aa-PicassoBottom.stl	1	
+Sixi2-214	[3D] - 5PI - pulleyInterior INPUT-64t v7.stl	1	
+Sixi2-215	[3D] - 5PE - pulleyExterior INPUT-63t v7.stl	1	
+Sixi2-216	[3D] - 5I - Idler BearingCoverHalf.stl	8	
+Sixi2-217	[3D] - 5Bd - outputDiskTOP.stl	1	
+Sixi2-218	[3D] - 5Bd - outputDiskMID.stl	1	
+Sixi2-219	[3D] - 5Bd - outputDiskBOTT.stl	1	
+Sixi2-220	[3D] - 5Bc - housingTOP2.stl	1	
+Sixi2-221	[3D] - 5Bc - housingTOP1.stl	1	
+Sixi2-222	[3D] - 5Bb - housingMID.stl	1	
+Sixi2-223	[3D] - 5Ba - housingBOTT2.stl	1	
+Sixi2-224	[3D] - 5Ba - housingBOTT1.stl	1	
+Sixi2-225	[3D] - 5B - shaftCAP.stl	1	
+Sixi2-226	[3D] - 5B - rotorTOP.stl	1	
+Sixi2-227	[3D] - 5B - rotorBOTT.stl	1	
+Sixi2-228	[3D] - 5B - eShaftTOP.stl	1	
+Sixi2-229	[3D] - 5B - eShaftBOTT.stl	1	
+Sixi2-230	[3D] - 5Ac - CableClamp.stl	1	
+Sixi2-231	[3D] - 5Ab - UlnaSensRod.stl	1	
+Sixi2-232	[3D] - 5Aa - ForkTop.stl	1	
+Sixi2-233	[3D] - 5Aa - ForkBottom.stl	1	
+Sixi2-234	[3D] - 4S-Sixi spacer v8.stl	1	https://imgur.com/ebuiq8H
+Sixi2-235	[3D] - 4Pe-pulley7-32in OUTPUT-30t.stl	1	
+Sixi2-236	[3D] - 4Pd-pulley5-16in OUTPUT-30t.stl	1	
+Sixi2-237	[3D] - 4Pc-pulley3-8in OUTPUT-30t.stl	1	
+Sixi2-238	[3D] - 4MB-UlnaMagBearing.stl	1	
+Sixi2-239	[3D] - 4M-UlnaMagHolder.stl	1	
+Sixi2-240	[3D] - 4B-MotorMount.stl	3	
+Sixi2-241	[3D] - 4Ab-ElbowTail.stl	1	
+Sixi2-242	[3D] - 4Aa-ElbowTail.stl	1	
+Sixi2-243	[3D] - 3R-rotorTOPScrew.stl	1	
+Sixi2-244	[3D] - 3R-rotorTOPNut.stl	1	
+Sixi2-245	[3D] - 3R-rotorBOTTScrew.stl	1	
+Sixi2-246	[3D] - 3R-rotorBOTTNut.stl	1	
+Sixi2-247	[3D] - 3Mc-ElbowMagHolderCap.stl	1	
+Sixi2-248	[3D] - 3MB-ElbowMagBearing.stl	1	
+Sixi2-249	[3D] - 3M-ElbowMagHolder.stl	1	
+Sixi2-250	[3D] - 3GB-shaftSensMid.stl	1	
+Sixi2-251	[3D] - 3GB-shaftCoupler.stl	1	
+Sixi2-252	[3D] - 3GB-shaftCap - SEN.stl	1	
+Sixi2-253	[3D] - 3GB-shaftCap - MOTT.stl	1	
+Sixi2-254	[3D] - 3GB-eShaft.stl	1	
+Sixi2-255	[3D] - 3GB-elbowTOPcap.stl	1	
+Sixi2-256	[3D] - 3GB-elbowTOP - SEN.stl	1	
+Sixi2-257	[3D] - 3GB-elbowTOP - MOT.stl	1	
+Sixi2-258	[3D] - 3GB-elbowBottCap - SEN.stl	1	
+Sixi2-259	[3D] - 3GB-elbowBottCap - MOT.stl	1	
+Sixi2-260	[3D] - 3GB-elbowBOTT - SEN.stl	1	
+Sixi2-261	[3D] - 3GB-elbowBOTT - MOT.stl	1	
+Sixi2-262	[3D] - 2R-rotorTOPScrew.stl	1	
+Sixi2-263	[3D] - 2R-rotorTOPNut.stl	1	
+Sixi2-264	[3D] - 2R-rotorBOTTScrew.stl	1	
+Sixi2-265	[3D] - 2R-rotorBOTTNut.stl	1	
+Sixi2-266	[3D] - 2MB-ShoulderMagBearing.stl	1	
+Sixi2-267	[3D] - 2M-ShoulderMagHolder.stl	1	
+Sixi2-268	[3D] - 2GB-shoulderTopCap - SEN.stl	1	
+Sixi2-269	[3D] - 2GB-shoulderTopCap - MOT.stl	1	
+Sixi2-270	[3D] - 2GB-shoulderTOP - SEN.stl	1	
+Sixi2-271	[3D] - 2GB-shoulderTOP - MOT.stl	1	
+Sixi2-272	[3D] - 2GB-shoulderBOTT - SEN.stl	1	
+Sixi2-273	[3D] - 2GB-shoulderBOTT - MOT.stl	1	
+Sixi2-274	[3D] - 2GB-shaftCoupler.stl	1	
+Sixi2-275	[3D] - 2GB-shaftCap - SEN.stl	1	
+Sixi2-276	[3D] - 2GB-shaftCap - MOT.stl	1	
+Sixi2-277	[3D] - 2GB-shaftBott.stl	1	
+Sixi2-278	[3D] - 2GB-eShaft.stl	1	
+Sixi2-279	[3D] - 1PO-pulleyAnchor OUTPUT-71t v6.stl	1	
+Sixi2-280	[3D] - 1PI-pulleyAnchor INPUT-71t v7.stl	1	
+Sixi2-281	[3D] - 1MB-AnchorMagBearing.stl	1	
+Sixi2-282	[3D] - 1M-AnchorMagHolder.stl	1	
+Sixi2-283	[3D] - 1GB-shaftTop.stl	1	
+Sixi2-284	[3D] - 1GB-shaftEccentric.stl	1	
+Sixi2-285	[3D] - 1GB-shaftBott.stl	1	
+Sixi2-286	[3D] - 1GB-rotorTOP.stl	1	
+Sixi2-287	[3D] - 1GB-rotorBOTT.stl	1	
+Sixi2-288	[3D] - 1GB-outputTopDisk.stl	1	
+Sixi2-289	[3D] - 1GB-outputTopBearing.stl	1	
+Sixi2-290	[3D] - 1GB-outputBottDiskTop.stl	1	
+Sixi2-291	[3D] - 1GB-outputBottDiskBott.stl	1	
+Sixi2-292	[3D] - 1E-M5x8mm Spacer v3.stl	4	
+Sixi2-293	[3D] - 1D-ShoulderMount.stl	1	
+Sixi2-294	[3D] - 1C-PanelMount.stl	1	
+Sixi2-295	[3D] - 1Bb-AnchorRearBottom.stl	1	
+Sixi2-296	[3D] - 1Ba-AnchorFrontBottom.stl	1	
+Sixi2-297	[3D] - 1Ab-AnchorMotorHolder.stl	1	
+Sixi2-298	[3D] - 1Aa-AnchorTopSpacer.stl	1	
+Sixi2-299	[3D] - 1Aa-AnchorTopBearing.stl	1	
+Sixi2-300	[3D] - 1Aa-AnchorGearBox.stl	1	

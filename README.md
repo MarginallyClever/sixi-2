@@ -1,14 +1,11 @@
 # Sixi 2 Robot Arm
 
 Sixi 2 is an open source industrial robot arm.  It is designed with six degrees of freedom and can hold 2kg at 80cm.
-
 Some examples of it in action:
 
-https://www.instagram.com/p/B56L99UnWkN/
-
-https://www.instagram.com/p/B6L7YMTnthS/
-
-https://www.instagram.com/p/B6jtXw5HbRo/
+* https://www.instagram.com/p/B56L99UnWkN/
+* https://www.instagram.com/p/B6L7YMTnthS/
+* https://www.instagram.com/p/B6jtXw5HbRo/
 
 ## Motivation
 
@@ -16,49 +13,37 @@ https://www.instagram.com/p/B6jtXw5HbRo/
 
 When 3D printers were closed source, they started at $10k.  Makerbot and Prusa changed the game by bringing high quality open source 3D printers down to $2k.  Marginally Clever Robots, Ltd. aims to be the Prusa of robot arms.
 
-## Ease
-
-The Sixi has no glue because we like operations that can be undone.
-
-All the 3D printable parts were produced on a Prusa MK2s at default settings (20% infill, 200um layer height).  Parts are carefully designed to have a minimum of support material cleaning.
-
-There is one part turned on a lathe.  Unavoidable.
-
-## Links and Info
-
-Sixi was designed in Fusion 360.  The design is publicly shared...
-
-...as the last stable version: https://a360.co/35zKVeh
-
-...as the development version: https://a360.co/2FwkZFQ
-
-Marginally Clever uses our home made Robot Overlord app to simulate, drive, and test the Sixi robot arm.
-
-https://github.com/MarginallyClever/Robot-Overlord-App
-
-Marginally Clever uses Makelangelo Firmware in the Arduino compatible brain of the robot.
-
-https://github.com/MarginallyClever/Makelangelo-firmware
-
-## This repository
+## This repository 
 
 This repository contains:
 
 * The STL files from the stable version
-* Data sheet descriptions of the milled aluminum parts
-* The bill of materials (BOM)
-* A list of our commercial sources (In the BOM)
-* Assembly instructions and animations _will be on mcr.dozuki.com_
-* Wiring schematic _will be on mcr.dozuki.com_
-* Usage instructions _will be on mcr.dozuki.com_
-* Issue tickets specifically related to the hardware
+* The bill of materials (BOM.csv)
+* Issue tickets specifically related to the hardware.
+
+This repository does NOT contain:
+
+* Assembly instructions: https://mcr.dozuki.com/c/Sixi_2_kit_Asssembly
+* Robot Overlord app to simulate, drive, and test Sixi: https://github.com/MarginallyClever/Robot-Overlord-App
+* Makelangelo Firmware in the Sixi's brain: https://github.com/MarginallyClever/Makelangelo-firmware
+
+## Notes
+
+The BOM.csv lists all the parts in the kit, most of which are off-the-shelf.  Some parts are manufactured.
+	
+	[LSR] laser cut
+	[CNC] metal cut on a CNC mill
+	[3D]  3D printed PLA plastic.
+
+All the 3D printable parts were produced on a Prusa MK3S.  Parts are carefully designed to have a minimum of support material cleaning.
+Please see STLs/STLPrintSettings.csv for recommended layer height, speed, color, etc.
+
+The Sixi has no glue because we like operations that can be undone.
 
 ## Collaborate
 
 We love collaborating!  Let's make great things happen together.
 
-You can reach us online at http://marginallyclever.com/
-
-We have a dedicated forum: https://www.marginallyclever.com/forums/forum/sixi-robot-arm/
-
-and a discord server: https://discord.gg/FkSK3xz
+* Reach us online at http://marginallyclever.com/
+* Discuss the project in our forum: https://www.marginallyclever.com/forums/forum/sixi-robot-arm/
+* For a link to the Fusion files, become one of our Patreon supporters: https://www.patreon.com/imakerobots
