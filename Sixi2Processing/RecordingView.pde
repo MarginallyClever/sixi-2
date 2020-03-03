@@ -1,8 +1,10 @@
 class RecordingView {
   int textHeight = 12;
+  int lineHeight=textHeight+2;
   int toShow=20;
   int first=0;
   int last=0;
+  int margin=5;
   
   void render(Recording rec) {
     textSize(textHeight);
@@ -21,7 +23,7 @@ class RecordingView {
     }
     println("\t"+first+"\t"+last);
     
-    float startY = height-textHeight*(toShow+1);
+    float startY = height-lineHeight*(toShow+1)-margin;
     int c;
     for(c=first; c<last; ++c) {
       if(c==index) {
@@ -29,8 +31,8 @@ class RecordingView {
       } else {
         fill(255,255,255,192);
       }
-      text(nf(c,5)+" "+rec.commands.get(c),0,startY);
-      startY+=textHeight;
+      text(nf(c,5)+" "+rec.commands.get(c),margin,startY);
+      startY+=lineHeight;
     }
   }
 }
