@@ -29,23 +29,27 @@ class Sixi2View {
     color cOn=color(255);
     color cOff=color(255,0,0);
     
-    fill(0,255,255);
+    fill(cOn);
     textSize(textHeight);
     int c=textHeight+margin;
-    text("[~]   "+(sixi2.operatingMode==OperatingMode.LIVE  ?"LIVE":"SIMULATED" ), margin,c);    c+=lineHeight;
-    text("[TAB] "+(sixi2.controlMode  ==ControlMode.REAL_TIME?"REAL TIME":"PLAYBACK"), margin,c);    c+=lineHeight;
-    fill(sixi2.cycleStart ?cOn:cOff); text("[SHIFT+ENTER] cycle start", margin,c);    c+=lineHeight;
-    fill(sixi2.singleBlock?cOn:cOff); text("[S] Single block",margin,c);    c+=lineHeight;
+                      fill(sixi2.operatingMode==OperatingMode.LIVE ?cOn:cOff);    text("[~]   "+(sixi2.operatingMode==OperatingMode.LIVE ?"LIVE":"SIMULATED"), margin,c);
+    c+=lineHeight;    fill(sixi2.controlMode==ControlMode.REAL_TIME?cOn:cOff);    text("[TAB] "+(sixi2.controlMode==ControlMode.REAL_TIME?"REAL TIME":"PLAYBACK"), margin,c);
+    c+=lineHeight;    fill(sixi2.cycleStart ?cOn:cOff);                           text("[SHIFT+ENTER] cycle start", margin,c);
+    c+=lineHeight;    fill(sixi2.singleBlock?cOn:cOff);                           text("[S] Single block",margin,c);
+    //c+=lineHeight;    fill(sixi2.recording.m01break?cOn:cOff);                    text("[Unset] M01 break"   ,0,textHeight*6);
+
     fill(cOn);
-    //fill(sixi2.recording.m01break   ?cOn:cOff); text("[Unset] M01 break"   ,0,textHeight*6);
-    text("[SPACE] reset", margin,c);    c+=lineHeight;
-    text("[ENTER] set current keyframe to joystick position", margin,c);    c+=lineHeight;
-    text("[DEL] remove previous keyframe", margin,c);    c+=lineHeight;
-    text("[BACKSPACE] remove this keyframe", margin,c);    c+=lineHeight;
-    text("[+] insert after the current keyframe", margin,c);    c+=lineHeight;
-    text("[<] select previous keyframe", margin,c);    c+=lineHeight;
-    text("[>] select next keyframe", margin,c);    c+=lineHeight;
-    text("[1...6] select robot arm joint (now "+(sixi2.selectedJoint+1)+")", margin,c);    c+=lineHeight;
-    text("[MOUSE WHEEL] change angle of selected joint", margin,c);    c+=lineHeight;
+    c+=lineHeight;    text("[SPACE] reset", margin,c);
+    c+=lineHeight;    // blank line
+    c+=lineHeight;    text("[/] set this keyframe", margin,c);
+    c+=lineHeight;    text("[+] insert a new keyframe after the current", margin,c);
+    c+=lineHeight;    text("[ENTER] / and + together", margin,c);
+    c+=lineHeight;    text("[BACKSPACE] remove previous keyframe", margin,c);
+    c+=lineHeight;    text("[DEL] remove this keyframe", margin,c);
+    c+=lineHeight;    text("[<] select previous keyframe", margin,c);
+    c+=lineHeight;    text("[>] select next keyframe", margin,c);
+    c+=lineHeight;    text("[1...6] select robot arm joint (now "+(sixi2.selectedJoint+1)+")", margin,c);
+    c+=lineHeight;    text("[MOUSE WHEEL] change angle of selected joint", margin,c);
+    c+=lineHeight;
   }
 }
