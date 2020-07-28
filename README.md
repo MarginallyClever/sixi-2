@@ -3,7 +3,7 @@
 Sixi 2 is an open source industrial robot arm.  It is designed with six degrees of freedom and can hold 2kg at 80cm.
 Some examples of it in action:
 
-https://i.imgur.com/wJwSlcT.jpg
+![](https://i.imgur.com/wJwSlcT.jpg)
 
 ## Videos
 
