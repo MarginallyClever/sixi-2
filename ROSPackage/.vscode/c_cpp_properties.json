@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/opt/ros/melodic/include/**",
+                "/home/hunter/zzzzz/ros/fiverr/marcosbarrera/new_project/catkin_ws/src/jackal_velodyne/include/**",
+                "/home/hunter/zzzzz/ros/fiverr/marcosbarrera/new_project/catkin_ws/src/slamsensor/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/lib/ccache/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
