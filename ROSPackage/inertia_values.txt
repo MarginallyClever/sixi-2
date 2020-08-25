@@ -1,0 +1,103 @@
+### Inertia Values at the scale of 0.05 uniformly
+
+## Value for anchor
+Center of Mass is -nan -nan -nan
+Inertia Tensor is :
+| -nan -nan -nan |
+| -nan -nan -nan |
+| -nan -nan -nan |
+Principal axes are :
+| 1.000000 0.000000 0.000000 |
+| 0.000000 1.000000 0.000000 |
+| 0.000000 0.000000 1.000000 |
+axis momenta are :
+| -nan -nan -nan |
+
+## Value for shoulder
+Center of Mass is 0.000181 0.187699 0.769055
+Inertia Tensor is :
+| 0.017621 -0.000004 -0.000007 |
+| -0.000004 0.011409 -0.003083 |
+| -0.000007 -0.003083 0.008481 |
+Principal axes are :
+| 1.000000 -0.000183 0.000703 |
+| -0.000221 0.845274 0.534333 |
+| -0.000692 -0.534333 0.845273 |
+axis momenta are :
+| 0.017621 0.013358 0.006532 |
+
+## Value for Bicep
+Center of Mass is 0.000422 0.039042 2.038135
+Inertia Tensor is :
+| 0.008392 -0.000001 -0.000008 |
+| -0.000001 0.006938 -0.004870 |
+| -0.000008 -0.004870 0.004337 |
+Principal axes are :
+| 0.999998 0.001970 0.000885 |
+| -0.002102 0.793091 0.609100 |
+| 0.000498 -0.609100 0.793093 |
+axis momenta are :
+| 0.008392 0.010678 0.000597 |
+
+## Value for forearm
+Center of Mass is -0.266003 -0.009119 3.766233
+Inertia Tensor is :
+| -0.366227 0.000257 -0.080623 |
+| 0.000257 -0.304249 -0.000917 |
+| -0.080623 -0.000917 0.066988 |
+Principal axes are :
+| 0.984171 0.000726 -0.177220 |
+| -0.001180 0.999996 -0.002457 |
+| 0.177218 0.002628 0.984168 |
+axis momenta are :
+| -0.380745 -0.304251 0.081508 |
+
+## Value for tuningfork
+Center of Mass is 1.735532 0.010575 3.053760
+Inertia Tensor is :
+| 0.004248 0.000171 0.000000 |
+| 0.000171 0.002702 0.000002 |
+| 0.000000 0.000002 0.005991 |
+Principal axes are :
+| 0.994049 -0.108938 0.000287 |
+| 0.108938 0.994048 0.000507 |
+| -0.000341 -0.000472 1.000000 |
+axis momenta are :
+| 0.004266 0.002684 0.005991 |
+
+## Value for picassobox
+Center of Mass is 1.959861 0.000070 3.054593
+Inertia Tensor is :
+| 0.000624 -0.000000 0.000001 |
+| -0.000000 0.000714 -0.000000 |
+| 0.000001 -0.000000 0.000795 |
+Principal axes are :
+| 0.999990 -0.000422 0.004372 |
+| 0.000423 1.000000 -0.000329 |
+| -0.004372 0.000330 0.999990 |
+axis momenta are :
+| 0.000624 0.000714 0.000795 |
+
+## Value for hand
+Center of Mass is 2.207627 0.000116 3.054149
+Inertia Tensor is :
+| 0.000028 -0.000000 0.000000 |
+| -0.000000 0.000014 0.000000 |
+| 0.000000 0.000000 0.000014 |
+Principal axes are :
+| 1.000000 0.000056 -0.000187 |
+| -0.000056 1.000000 0.000050 |
+| 0.000187 -0.000050 1.000000 |
+axis momenta are :
+| 0.000028 0.000014 0.000014 |
+
+
+# commands
+
+roslaunch gazebo_ros empty_world.launch paused:=true use_sim_time:=false gui:=true throttled:=false recording:=false debug:=true
+
+rosrun gazebo_ros spawn_model -file sixi_robot.urdf -urdf -x 0 -y 0 -z 0 -model sixi
+
+
+
+

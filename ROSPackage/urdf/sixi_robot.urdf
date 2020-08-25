@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot name="sixi"
+    xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+    <!--
+        DESCRIPTION
+        // shoulder
+        links.get(0).setD(18.8452+0.9);
+        links.get(0).setTheta(0);
+        links.get(0).setR(0);
+        links.get(0).setAlpha(-90);
+        links.get(0).setRange(-120,120);
+        links.get(0).maxTorque.set(14.0); //Nm
+
+        // bicep
+        links.get(1).setD(0);
+        links.get(1).setTheta(-90);
+        links.get(1).setR(35.796);
+        links.get(1).setAlpha(0);
+        links.get(1).setRange(-170,0);
+        links.get(1).maxTorque.set(40.0); //Nm
+
+        // foreArm
+        links.get(2).setD(0);
+        links.get(2).setTheta(0);
+        links.get(2).setR(6.4259);
+        links.get(2).setAlpha(-90);
+        links.get(2).setRange(-83.369, 86);
+        links.get(2).maxTorque.set(14.0); //Nm
+
+        // utningFork
+        links.get(3).setLetter("U");
+        links.get(3).setD(29.355+9.35);
+        links.get(3).setTheta(0);
+        links.get(3).setR(0);
+        links.get(3).setAlpha(90);
+        links.get(3).setRange(-175, 175);
+        links.get(3).maxTorque.set(3.0); //Nm
+
+        // picassoBox
+        links.get(4).setLetter("V");
+        links.get(4).setD(0);
+        links.get(4).setTheta(0);
+        links.get(4).setR(0);
+        links.get(4).setAlpha(-90);
+        links.get(4).setRange(-120, 120);
+        links.get(4).maxTorque.set(2.5); //Nm
+
+        // hand
+        links.get(5).setLetter("W");
+        links.get(5).setTheta(0);
+        links.get(5).setD(5.795);
+        links.get(5).setR(0);
+        links.get(5).setAlpha(0);
+        links.get(5).setRange(-170, 170);
+        links.get(5).maxTorque.set(2.5); //Nm
+
+    -->
+
+    <!-- Material Tags -->
+    <material name="blue">
+        <color rgba="0 0 0.8 1"/>
+    </material>
+
+    <material name="yellow">
+        <color rgba="0.8 0.8 0 1"/>
+    </material>
+
+
+    <!-- Link 1 -->
+
+
+    <link name="base_link"/>
+
+    <link name="anchor_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertial>
+            <origin xyz="0.6 0.34 0.30" rpy="0 0 0"/>
+            <inertia ixx="0.1602" iyy="0.171041667" izz="0.07083" ixy="0.0" ixz="0.0" iyz="0.0"/>
+            <mass value="1.0"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/1_Anchor.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+            <material name="yellow" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/1_Anchor.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <joint name='fixed_joint' type='fixed'>
+        <axis xyz="0 0 1"/>
+        <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="anchor_link"/>
+    </joint>
+
+    <!-- Shoulder Link -->
+    <link name="shoulder_link">
+        <origin xyz="0 0 -0.55" rpy="0 0 0"/>
+        <inertial>
+            <origin xyz="0.000181 0.187699 0.769055" rpy="0 0 0"/>
+            <inertia ixx="0.017621" iyy="0.011409" izz="0.008481" ixy="0.0" ixz="0.0" iyz="0.0"/>
+            <mass value="1.0"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 -0.55" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/2_Shoulder.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+            <material name="blue" />
+        </visual>
+        <collision>
+            <origin xyz="0 0 -0.55" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/2_Shoulder.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <joint name='shoulder_joint' type='revolute'>
+        <axis xyz="0 0 1"/>
+        <origin xyz="0 0 0.55" rpy="0 0 0"/>
+        <parent link="anchor_link"/>
+        <child link="shoulder_link"/>
+        <limit effort="100" lower="-2.09" upper="2.09" velocity="2.9"/>
+    </joint>
+
+
+    <!-- Bicep Link -->
+    <link name="bicep_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertial>
+            <origin xyz="0.000422 0.039042 2.038135" rpy="0 0 0"/>
+            <inertia ixx="0.008392" iyy="0.006938" izz="0.004337" ixy="0.0" ixz="0.0" iyz="0.0"/>
+            <mass value="1.0"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 -0.925" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/3_Bicep.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 -0.925" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/3_Bicep.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <joint name='bicep_joint' type='revolute'>
+        <axis xyz="0 1 0"/>
+        <origin rpy="0 0 0" xyz="0.0 0.0 0.375"/>
+        <parent link="shoulder_link"/>
+        <child link="bicep_link"/>
+        <limit effort="100" lower="-2.97" upper="0.0" velocity="2.9"/>
+    </joint>
+
+    <!-- Forearm Link -->
+
+    <link name="forearm_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertial>
+            <origin xyz="-0.266003 -0.009119 3.766233" rpy="0 0 0"/>
+            <inertia ixx="0.984171" iyy="0.999996" izz="0.066988" ixy="0.0" ixz="0.0" iyz="0.0"/>
+            <mass value="1.0"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 -2.725" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/4_Forearm.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 -2.725" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/4_Forearm.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <joint name='forearm_joint' type='revolute'>
+        <axis xyz="0 1 0"/>
+        <origin rpy="0 0 0" xyz="0.0 0.0 1.75"/>
+        <parent link="bicep_link"/>
+        <child link="forearm_link"/>
+        <limit effort="100" lower="-1.46" upper="1.5" velocity="2.9"/>
+    </joint>
+
+    <!-- TuningFork Link -->
+
+    <link name="tuningfork_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertial>
+            <origin xyz="1.735532 0.010575 3.053760" rpy="0 0 0"/>
+            <inertia ixx="0.004248" iyy="0.002702" izz="0.005991" ixy="0.0" ixz="0.0" iyz="0.0"/>
+            <mass value="1.0"/>
+        </inertial>
+        <visual>
+
+            <origin xyz="-1.45 0 -3.05" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/5_TuningFork.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </visual>
+        <collision>
+
+            <origin xyz="-1.45 0 -3.05" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/5_TuningFork.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <joint name='tuningfork_joint' type='revolute'>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="1.45 0.0 0.35"/>
+        <parent link="forearm_link"/>
+        <child link="tuningfork_link"/>
+        <limit effort="100" lower="-3.05" upper="3.05" velocity="2.9"/>
+    </joint>
+
+    <!-- PicassoBox Link -->
+    <link name="picassobox_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertial>
+            <origin xyz="1.959861 0.000070 3.054593" rpy="0 0 0"/>
+            <inertia ixx="0.000624" iyy="0.000714" izz="0.000795" ixy="0.0" ixz="0.0" iyz="0.0"/>
+            <mass value="1.0"/>
+        </inertial>
+        <visual>
+            <origin xyz="-1.85 0 -3.05" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/6_PicassoBox.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="-1.85 0 -3.05" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/6_PicassoBox.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <joint name='picassobox_joint' type='revolute'>
+        <axis xyz="0 1 0"/>
+        <origin rpy="0 0 0" xyz="0.4 0.0 0.0"/>
+        <parent link="tuningfork_link"/>
+        <child link="picassobox_link"/>
+        <limit effort="100" lower="-2.09" upper="2.09" velocity="2.9"/>
+    </joint>
+
+    <!-- Hand Link -->
+    <link name="hand_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertial>
+            <origin xyz="2.207627 0.000116 3.054149" rpy="0 0 0"/>
+            <inertia ixx="0.000028" iyy="0.000014" izz="0.000014" ixy="0.0" ixz="0.0" iyz="0.0"/>
+            <mass value="1.0"/>
+        </inertial>
+        <visual>
+
+            <origin xyz="-2.15 0 -3.05" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/7_Hand.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </visual>
+        <collision>
+
+            <origin xyz="-2.15 0 -3.05" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://sixi_robot/meshes/7_Hand.obj" scale="0.05 0.05 0.05"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <joint name='hand_joint' type='revolute'>
+        <axis xyz="1 0 0"/>
+        <origin rpy="0 0 0" xyz="0.3 0.0 0.0"/>
+        <parent link="picassobox_link"/>
+        <child link="hand_link"/>
+        <limit effort="100" lower="-2.97" upper="2.97" velocity="2.9"/>
+    </joint>
+
+    <!-- Gazebo Transmission Tags-->
+    <transmission name="trans_shoulder_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="shoulder_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="shoulder_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_bicep_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="bicep_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="bicep_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_forearm_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="forearm_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="forearm_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_tuningfork_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="tuningfork_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="tuningfork_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_picassobox_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="picassobox_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="picassobox_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_hand_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="hand_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="hand_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/</robotNamespace>
+        </plugin>
+    </gazebo>
+
+</robot>

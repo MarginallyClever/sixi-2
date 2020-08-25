@@ -3,6 +3,10 @@
 Sixi 2 is an open source industrial robot arm.  It is designed with six degrees of freedom and can hold 2kg at 80cm.
 Some examples of it in action:
 
+![](https://i.imgur.com/wJwSlcT.jpg)
+
+## Videos
+
 * https://www.instagram.com/p/B56L99UnWkN/
 * https://www.instagram.com/p/B6L7YMTnthS/
 * https://www.instagram.com/p/B6jtXw5HbRo/
@@ -20,6 +24,7 @@ This repository contains:
 * The STL files from the stable version
 * The bill of materials (BOM.csv)
 * Issue tickets specifically related to the hardware.
+* ROS package.
 
 This repository does NOT contain:
 
@@ -47,3 +52,4 @@ We love collaborating!  Let's make great things happen together.
 * Reach us online at http://marginallyclever.com/
 * Discuss the project in our forum: https://www.marginallyclever.com/forums/forum/sixi-robot-arm/
 * For a link to the Fusion files, become one of our Patreon supporters: https://www.patreon.com/imakerobots
+* See also the ROS.org wiki page: https://wiki.ros.org/Robots/Sixi
