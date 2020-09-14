@@ -1,123 +1,123 @@
-﻿File Name,Layer Height [mm],Quality,Infill [%],PLA Color,
-[3D] - 1Aa-AnchorGearBox.stl,0.2,SPEED,30,YELLOW,
-[3D] - 1Aa-AnchorTopBearing.stl,0.2,SPEED,30,YELLOW,
-[3D] - 1Aa-AnchorTopSpacer.stl,0.2,SPEED,30,YELLOW,
-[3D] - 1Ab-AnchorMotorHolder.stl,0.3,DRAFT,15,YELLOW,
-[3D] - 1Ba-AnchorFrontBottom.stl,0.3,DRAFT,15,YELLOW,
-[3D] - 1Bb-AnchorRearBottom.stl,0.3,DRAFT,15,YELLOW,
-[3D] - 1C-PanelMount.stl,0.3,DRAFT,15,YELLOW,
-[3D] - 1D-ShoulderMount.stl,0.2,SPEED,30,YELLOW,
-[3D] - 1E-M5x8mm Spacer v3.stl,0.2,SPEED,20,BLACK,x4
-[3D] - 1GB-outputBottDiskBott.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-outputBottDiskTop.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-outputTopBearing.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-outputTopDisk.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-rotorBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-rotorTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-shaftBott.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-shaftEccentric.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1GB-shaftTop.stl,0.15,QUALITY,100,BLACK,
-[3D] - 1M-AnchorMagHolder.stl,0.15,SPEED,40,BLACK,
-[3D] - 1MB-AnchorMagBearing.stl,0.15,SPEED,40,BLACK,
-[3D] - 1PI-pulleyAnchor INPUT-71t v7.stl,0.15,QUALITY,50,BLACK,
-[3D] - 1PO-pulleyAnchor OUTPUT-71t v6.stl,0.15,QUALITY,50,BLACK,
-[3D] - 2GB-eShaft.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2GB-shaftBott.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2GB-shaftCap - MOT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2GB-shaftCap - SEN.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2GB-shaftCoupler.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2GB-shoulderBOTT - MOT.stl,0.2,SPEED,20,YELLOW,
-[3D] - 2GB-shoulderBOTT - SEN.stl,0.2,SPEED,20,YELLOW,
-[3D] - 2GB-shoulderTOP - MOT.stl,0.2,SPEED,30,YELLOW,
-[3D] - 2GB-shoulderTOP - SEN.stl,0.2,SPEED,30,YELLOW,
-[3D] - 2GB-shoulderTopCap - MOT.stl,0.2,SPEED,20,YELLOW,
-[3D] - 2GB-shoulderTopCap - SEN.stl,0.2,SPEED,20,YELLOW,
-[3D] - 2M-ShoulderMagHolder.stl,0.2,SPEED,20,YELLOW,
-[3D] - 2MB-ShoulderMagBearing.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2R-rotorBOTTNut.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2R-rotorBOTTScrew.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2R-rotorTOPNut.stl,0.15,QUALITY,100,BLACK,
-[3D] - 2R-rotorTOPScrew.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3GB-elbowBOTT - MOT.stl,0.2,SPEED,20,YELLOW,
-[3D] - 3GB-elbowBOTT - SEN.stl,0.2,SPEED,20,YELLOW,
-[3D] - 3GB-elbowBottCap - MOT.stl,0.2,SPEED,20,YELLOW,
-[3D] - 3GB-elbowBottCap - SEN.stl,0.2,SPEED,20,YELLOW,
-[3D] - 3GB-elbowTOP - MOT.stl,0.2,SPEED,30,YELLOW,
-[3D] - 3GB-elbowTOP - SEN.stl,0.2,SPEED,30,YELLOW,
-[3D] - 3GB-elbowTOPcap.stl,0.2,SPEED,30,YELLOW,
-[3D] - 3GB-eShaft.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3GB-shaftCap - MOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3GB-shaftCap - SEN.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3GB-shaftCoupler.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3GB-shaftSensMid.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3M-ElbowMagHolder.stl,0.2,SPEED,20,YELLOW,
-[3D] - 3MB-ElbowMagBearing.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3Mc-ElbowMagHolderCap.stl,0.2,SPEED,20,YELLOW,
-[3D] - 3R-rotorBOTTNut.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3R-rotorBOTTScrew.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3R-rotorTOPNut.stl,0.15,QUALITY,100,BLACK,
-[3D] - 3R-rotorTOPScrew.stl,0.15,QUALITY,100,BLACK,
-[3D] - 4Aa-ElbowTail.stl,0.2,SPEED,20,YELLOW,
-[3D] - 4Ab-ElbowTail.stl,0.2,SPEED,20,YELLOW,
-[3D] - 4B-MotorMount.stl,0.2,SPEED,20,YELLOW,x3
-[3D] - 4M-UlnaMagHolder.stl,0.2,QUALITY,50,BLACK,
-[3D] - 4MB-UlnaMagBearing.stl,0.2,QUALITY,50,BLACK,
-[3D] - 4Pc-pulley3-8in OUTPUT-30t.stl,0.2,QUALITY,50,BLACK,
-[3D] - 4Pd-pulley5-16in OUTPUT-30t.stl,0.2,QUALITY,50,BLACK,
-[3D] - 4Pe-pulley7-32in OUTPUT-30t.stl,0.2,QUALITY,50,BLACK,
-[3D] - 4S-Sixi spacer v8.stl,0.2,SPEED,20,BLACK,support everywhere
-[3D] - 5Aa - ForkBottom.stl,0.2,SPEED,20,YELLOW,
-[3D] - 5Aa - ForkTop.stl,0.2,SPEED,20,YELLOW,
-[3D] - 5Ab - UlnaSensRod.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Ac - CableClamp.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5B - eShaftBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 5B - eShaftTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 5B - rotorBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 5B - rotorTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 5B - shaftCAP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 5Ba - housingBOTT1.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Ba - housingBOTT2.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Bb - housingMID.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Bc - housingTOP1.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Bc - housingTOP2.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Bd - outputDiskBOTT.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Bd - outputDiskMID.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5Bd - outputDiskTOP.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5I - Idler BearingCoverHalf.stl,0.15,QUALITY,100,BLACK,x8
-[3D] - 5PE - pulleyExterior INPUT-63t v7.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 5PI - pulleyInterior INPUT-64t v7.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Aa-PicassoBottom.stl,0.2,SPEED,20,YELLOW,
-[3D] - 6Ab-PicassoTop.stl,0.2,SPEED,20,YELLOW,
-[3D] - 6Ac-wristGBDiskTop.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Ad-wristGBDiskBott.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Ae-SensHolder.stl,0.2,SPEED,20,YELLOW,
-[3D] - 6Ba-BevelGear INPUT-20t v13.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Bc-bearingSpacer v3.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Da-eShaftBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Da-eShaftTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Da-Hand.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Da-HousingBOTT.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Da-HousingTOP.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Da-outputDiskBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Da-outputDiskTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Da-rotorBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Da-rotorTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Db-BevelGear OUTPUT-20t.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Ea-eShaftBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Ea-eShaftTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Ea-HousingBOTT.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Ea-HousingTOP.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6Ea-rotorBOTT.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Ea-rotorTOP.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Mc-WristMagHolder v7.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6Md-SensorMagHolder.stl,0.15,QUALITY,100,BLACK,
-[3D] - 6PE-pulleyExterior OUTPUT-63t v7.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 6PI-pulleyInterior OUTPUT-64t v12.stl,0.2,QUALITY,30,YELLOW,
-[3D] - 7A-stepperDriverAdapter 320x3.stl,0.2,SPEED,20,BLACK/YELLOW,
-[3D] - 7B-stepperDriverAdapter 556-542.stl,0.2,SPEED,20,BLACK/YELLOW,
-[3D] - 7C-stepperDriverAdapter 542.stl,0.2,SPEED,20,BLACK/YELLOW,
-[3D] - 7Da-ArduinoStandoff.stl,0.2,SPEED,20,BLACK/YELLOW,
-[3D] - 7Db-ArduinoTray.stl,0.2,SPEED,20,BLACK/YELLOW,
-[3D] - 7E-plug wall adapter.stl,0.2,SPEED,20,YELLOW,
-[3D] - xSAa-AS5147 SensorAdapter1.stl,0.2,QUALITY,20,BLACK,
-[3D] - xSAb-AS5147 SensorAdapter2.stl,0.2,QUALITY,20,BLACK,
+SKU	File Name	Layer Height [mm]	Quality	Infill [%]	PLA Color	
+Sixi2-300	[3D] - 1Aa-AnchorGearBox.stl	0.2	SPEED	30	YELLOW	
+Sixi2-299	[3D] - 1Aa-AnchorTopBearing.stl	0.2	SPEED	30	YELLOW	
+Sixi2-298	[3D] - 1Aa-AnchorTopSpacer.stl	0.2	SPEED	30	YELLOW	
+Sixi2-297	[3D] - 1Ab-AnchorMotorHolder.stl	0.3	DRAFT	15	YELLOW	
+Sixi2-296	[3D] - 1Ba-AnchorFrontBottom.stl	0.3	DRAFT	15	YELLOW	
+Sixi2-295	[3D] - 1Bb-AnchorRearBottom.stl	0.3	DRAFT	15	YELLOW	
+Sixi2-294	[3D] - 1C-PanelMount.stl	0.3	DRAFT	15	YELLOW	
+Sixi2-293	[3D] - 1D-ShoulderMount.stl	0.2	SPEED	30	YELLOW	
+Sixi2-292	[3D] - 1E-M5x8mm Spacer v3.stl	0.2	SPEED	20	BLACK	x4
+Sixi2-291	[3D] - 1GB-outputBottDiskBott.stl	0.15	QUALITY	100	BLACK	
+Sixi2-290	[3D] - 1GB-outputBottDiskTop.stl	0.15	QUALITY	100	BLACK	
+Sixi2-289	[3D] - 1GB-outputTopBearing.stl	0.15	QUALITY	100	BLACK	
+Sixi2-288	[3D] - 1GB-outputTopDisk.stl	0.15	QUALITY	100	BLACK	
+Sixi2-287	[3D] - 1GB-rotorBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-286	[3D] - 1GB-rotorTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-285	[3D] - 1GB-shaftBott.stl	0.15	QUALITY	100	BLACK	
+Sixi2-284	[3D] - 1GB-shaftEccentric.stl	0.15	QUALITY	100	BLACK	
+Sixi2-283	[3D] - 1GB-shaftTop.stl	0.15	QUALITY	100	BLACK	
+Sixi2-282	[3D] - 1M-AnchorMagHolder.stl	0.15	SPEED	40	BLACK	
+Sixi2-281	[3D] - 1MB-AnchorMagBearing.stl	0.15	SPEED	40	BLACK	
+Sixi2-280	[3D] - 1PI-pulleyAnchor INPUT-71t v7.stl	0.15	QUALITY	50	BLACK	
+Sixi2-279	[3D] - 1PO-pulleyAnchor OUTPUT-71t v6.stl	0.15	QUALITY	50	BLACK	
+Sixi2-278	[3D] - 2GB-eShaft.stl	0.15	QUALITY	100	BLACK	
+Sixi2-277	[3D] - 2GB-shaftBott.stl	0.15	QUALITY	100	BLACK	
+Sixi2-276	[3D] - 2GB-shaftCap - MOT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-275	[3D] - 2GB-shaftCap - SEN.stl	0.15	QUALITY	100	BLACK	
+Sixi2-274	[3D] - 2GB-shaftCoupler.stl	0.15	QUALITY	100	BLACK	
+Sixi2-273	[3D] - 2GB-shoulderBOTT - MOT.stl	0.2	SPEED	20	YELLOW	
+Sixi2-272	[3D] - 2GB-shoulderBOTT - SEN.stl	0.2	SPEED	20	YELLOW	
+Sixi2-271	[3D] - 2GB-shoulderTOP - MOT.stl	0.2	SPEED	30	YELLOW	
+Sixi2-270	[3D] - 2GB-shoulderTOP - SEN.stl	0.2	SPEED	30	YELLOW	
+Sixi2-269	[3D] - 2GB-shoulderTopCap - MOT.stl	0.2	SPEED	20	YELLOW	
+Sixi2-268	[3D] - 2GB-shoulderTopCap - SEN.stl	0.2	SPEED	20	YELLOW	
+Sixi2-267	[3D] - 2M-ShoulderMagHolder.stl	0.2	SPEED	20	YELLOW	
+Sixi2-266	[3D] - 2MB-ShoulderMagBearing.stl	0.15	QUALITY	100	BLACK	
+Sixi2-265	[3D] - 2R-rotorBOTTNut.stl	0.15	QUALITY	100	BLACK	
+Sixi2-264	[3D] - 2R-rotorBOTTScrew.stl	0.15	QUALITY	100	BLACK	
+Sixi2-263	[3D] - 2R-rotorTOPNut.stl	0.15	QUALITY	100	BLACK	
+Sixi2-262	[3D] - 2R-rotorTOPScrew.stl	0.15	QUALITY	100	BLACK	
+Sixi2-261	[3D] - 3GB-elbowBOTT - MOT.stl	0.2	SPEED	20	YELLOW	
+Sixi2-260	[3D] - 3GB-elbowBOTT - SEN.stl	0.2	SPEED	20	YELLOW	
+Sixi2-259	[3D] - 3GB-elbowBottCap - MOT.stl	0.2	SPEED	20	YELLOW	
+Sixi2-258	[3D] - 3GB-elbowBottCap - SEN.stl	0.2	SPEED	20	YELLOW	
+Sixi2-257	[3D] - 3GB-elbowTOP - MOT.stl	0.2	SPEED	30	YELLOW	
+Sixi2-256	[3D] - 3GB-elbowTOP - SEN.stl	0.2	SPEED	30	YELLOW	
+Sixi2-255	[3D] - 3GB-elbowTOPcap.stl	0.2	SPEED	30	YELLOW	
+Sixi2-254	[3D] - 3GB-eShaft.stl	0.15	QUALITY	100	BLACK	
+Sixi2-253	[3D] - 3GB-shaftCap - MOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-252	[3D] - 3GB-shaftCap - SEN.stl	0.15	QUALITY	100	BLACK	
+Sixi2-251	[3D] - 3GB-shaftCoupler.stl	0.15	QUALITY	100	BLACK	
+Sixi2-250	[3D] - 3GB-shaftSensMid.stl	0.15	QUALITY	100	BLACK	
+Sixi2-249	[3D] - 3M-ElbowMagHolder.stl	0.2	SPEED	20	YELLOW	
+Sixi2-248	[3D] - 3MB-ElbowMagBearing.stl	0.15	QUALITY	100	BLACK	
+Sixi2-247	[3D] - 3Mc-ElbowMagHolderCap.stl	0.2	SPEED	20	YELLOW	
+Sixi2-246	[3D] - 3R-rotorBOTTNut.stl	0.15	QUALITY	100	BLACK	
+Sixi2-245	[3D] - 3R-rotorBOTTScrew.stl	0.15	QUALITY	100	BLACK	
+Sixi2-244	[3D] - 3R-rotorTOPNut.stl	0.15	QUALITY	100	BLACK	
+Sixi2-243	[3D] - 3R-rotorTOPScrew.stl	0.15	QUALITY	100	BLACK	
+Sixi2-242	[3D] - 4Aa-ElbowTail.stl	0.2	SPEED	20	YELLOW	
+Sixi2-241	[3D] - 4Ab-ElbowTail.stl	0.2	SPEED	20	YELLOW	
+Sixi2-240	[3D] - 4B-MotorMount.stl	0.2	SPEED	20	YELLOW	x3
+Sixi2-239	[3D] - 4M-UlnaMagHolder.stl	0.2	QUALITY	50	BLACK	
+Sixi2-238	[3D] - 4MB-UlnaMagBearing.stl	0.2	QUALITY	50	BLACK	
+Sixi2-237	[3D] - 4Pc-pulley3-8in OUTPUT-30t.stl	0.2	QUALITY	50	BLACK	
+Sixi2-236	[3D] - 4Pd-pulley5-16in OUTPUT-30t.stl	0.2	QUALITY	50	BLACK	
+Sixi2-235	[3D] - 4Pe-pulley7-32in OUTPUT-30t.stl	0.2	QUALITY	50	BLACK	
+Sixi2-234	[3D] - 4S-Sixi spacer v8.stl	0.2	SPEED	20	BLACK	support everywhere
+Sixi2-233	[3D] - 5Aa - ForkBottom.stl	0.2	SPEED	20	YELLOW	
+Sixi2-232	[3D] - 5Aa - ForkTop.stl	0.2	SPEED	20	YELLOW	
+Sixi2-231	[3D] - 5Ab - UlnaSensRod.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-230	[3D] - 5Ac - CableClamp.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-229	[3D] - 5B - eShaftBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-228	[3D] - 5B - eShaftTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-227	[3D] - 5B - rotorBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-226	[3D] - 5B - rotorTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-225	[3D] - 5B - shaftCAP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-224	[3D] - 5Ba - housingBOTT1.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-223	[3D] - 5Ba - housingBOTT2.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-222	[3D] - 5Bb - housingMID.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-221	[3D] - 5Bc - housingTOP1.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-220	[3D] - 5Bc - housingTOP2.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-219	[3D] - 5Bd - outputDiskBOTT.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-218	[3D] - 5Bd - outputDiskMID.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-217	[3D] - 5Bd - outputDiskTOP.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-216	[3D] - 5I - Idler BearingCoverHalf.stl	0.15	QUALITY	100	BLACK	x8
+Sixi2-215	[3D] - 5PE - pulleyExterior INPUT-63t v7.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-214	[3D] - 5PI - pulleyInterior INPUT-64t v7.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-213	[3D] - 6Aa-PicassoBottom.stl	0.2	SPEED	20	YELLOW	
+Sixi2-212	[3D] - 6Ab-PicassoTop.stl	0.2	SPEED	20	YELLOW	
+Sixi2-211	[3D] - 6Ac-wristGBDiskTop.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-210	[3D] - 6Ad-wristGBDiskBott.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-209	[3D] - 6Ae-SensHolder.stl	0.2	SPEED	20	YELLOW	
+Sixi2-208	[3D] - 6Ba-BevelGear INPUT-20t v13.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-207	[3D] - 6Bc-bearingSpacer v3.stl	0.15	QUALITY	100	BLACK	
+Sixi2-206	[3D] - 6Da-eShaftBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-205	[3D] - 6Da-eShaftTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-204	[3D] - 6Da-Hand.stl DEPRECATED	0.2	QUALITY	30	YELLOW	
+Sixi2-203	[3D] - 6Da-HousingBOTT.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-202	[3D] - 6Da-HousingTOP.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-201	[3D] - 6Da-outputDiskBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-200	[3D] - 6Da-outputDiskTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-199	[3D] - 6Da-rotorBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-198	[3D] - 6Da-rotorTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-197	[3D] - 6Db-BevelGear OUTPUT-20t.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-196	[3D] - 6Ea-eShaftBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-195	[3D] - 6Ea-eShaftTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-194	[3D] - 6Ea-HousingBOTT.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-193	[3D] - 6Ea-HousingTOP.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-192	[3D] - 6Ea-rotorBOTT.stl	0.15	QUALITY	100	BLACK	
+Sixi2-191	[3D] - 6Ea-rotorTOP.stl	0.15	QUALITY	100	BLACK	
+Sixi2-190	[3D] - 6Mc-WristMagHolder v7.stl	0.15	QUALITY	100	BLACK	
+Sixi2-189	[3D] - 6Md-SensorMagHolder.stl	0.15	QUALITY	100	BLACK	
+Sixi2-188	[3D] - 6PE-pulleyExterior OUTPUT-63t v7.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-187	[3D] - 6PI-pulleyInterior OUTPUT-64t v12.stl	0.2	QUALITY	30	YELLOW	
+Sixi2-186	[3D] - 7A-stepperDriverAdapter 320x3.stl	0.2	SPEED	20	BLACK/YELLOW	
+Sixi2-185	[3D] - 7B-stepperDriverAdapter 556-542.stl	0.2	SPEED	20	BLACK/YELLOW	
+Sixi2-184	[3D] - 7C-stepperDriverAdapter 542.stl	0.2	SPEED	20	BLACK/YELLOW	
+Sixi2-183	[3D] - 7Da-ArduinoStandoff.stl	0.2	SPEED	20	BLACK/YELLOW	
+Sixi2-182	[3D] - 7Db-ArduinoTray.stl	0.2	SPEED	20	BLACK/YELLOW	
+Sixi2-181	[3D] - 7E-plug wall adapter.stl	0.2	SPEED	20	YELLOW	
+Sixi2-179	[3D] - xSAa-AS5147 SensorAdapter1.stl	0.2	QUALITY	20	BLACK	
+Sixi2-176	[3D] - xSAb-AS5147 SensorAdapter2.stl	0.2	QUALITY	20	BLACK	
