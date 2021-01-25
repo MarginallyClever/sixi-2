@@ -28,7 +28,7 @@ This repository contains:
 
 This repository does NOT contain:
 
-* Assembly instructions: https://mcr.dozuki.com/c/Sixi_2_kit_Asssembly
+* Assembly instructions + software guide: https://mcr.dozuki.com/c/Sixi_2_kit_Asssembly
 * Robot Overlord app to simulate, drive, and test Sixi: https://github.com/MarginallyClever/Robot-Overlord-App
 * Makelangelo Firmware in the Sixi's brain: https://github.com/MarginallyClever/Makelangelo-firmware
 
