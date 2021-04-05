@@ -49,7 +49,6 @@ The Sixi has no glue because we like operations that can be undone.
 
 We love collaborating!  Let's make great things happen together.
 
-* Reach us online at http://marginallyclever.com/
-* Discuss the project in our forum: https://www.marginallyclever.com/forums/forum/sixi-robot-arm/
+* Discuss the project in our Discord: https://discord.gg/p2NRZFxXbh
 * For a link to the Fusion files, become one of our Patreon supporters: https://www.patreon.com/imakerobots
 * See also the ROS.org wiki page: https://wiki.ros.org/Robots/Sixi
